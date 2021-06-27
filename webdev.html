@@ -6,30 +6,134 @@
         <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <title>
             Will's Portfolio Site
         </title>
     </head>
     <body>
-        <!-- HEADLINE -->
-        <h1 class="top"><a class="simple" href="http://codingwill.github.io">Will's Dev</a></h1>
-        <p class="top">
-            Game Development and Programming Portfolio
-        </p>
-        <ul class="menu" id="myMenu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="gamedev.html">Game Dev</a></li>
-            <li><a class="selected" href="webdev.html">Web Dev</a></li>
-            <li><a href="cp.html">Competitive Programming</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <h2 class="title">Web Development</h2>
-        <div class="content">
-            <div class="isicontent">
-                
+        <div class="container-fluid">
+            <!-- HEADLINE -->
+            <h1 class="top"><a class="simple" href="http://codingwill.github.io">CODINGWILL</a></h1>
+            <p class="top">
+                Game Development, Web Development, and Programming Portfolio
+            </p>
+            <ul class="menu" id="myMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gamedev.html">Game Dev</a></li>
+                <li><a class="selected" href="webdev.html">Web Dev</a></li>
+                <li><a href="cp.html">Competitive Programming</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <h2 class="title">Web Development</h2>
+            <div class="content">
+                <div class="isicontent">
+                    <p>These are some projects I've done and currently being developed:
+                        <p>
+                            <p class="titlebox" style="text-align: center; font-size: large;">KomisiART</p>
+                            <nav>
+                                <div class="nav nav-pills" id="nav-tab" role="tablist">
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" 
+                                    aria-controls="nav-home" aria-selected="true">
+                                        Homepage
+                                    </button>
+                                    <button class="nav-link" id="nav-terms-tab" data-bs-toggle="tab" data-bs-target="#nav-terms" type="button" role="tab" 
+                                    aria-controls="nav-terms" aria-selected="false">
+                                        Terms
+                                    </button>
+                                    <button class="nav-link" id="nav-login-tab" data-bs-toggle="tab" data-bs-target="#nav-login" type="button" role="tab" 
+                                    aria-controls="nav-login" aria-selected="false">
+                                        Login
+                                    </button>
+                                    <button class="nav-link" id="nav-login-tab" data-bs-toggle="tab" data-bs-target="#nav-reg" type="button" role="tab" 
+                                    aria-controls="nav-reg" aria-selected="false">
+                                        Register
+                                    </button>
+                                    <button class="nav-link" id="nav-upload-tab" data-bs-toggle="tab" data-bs-target="#nav-upload" type="button" role="tab" 
+                                    aria-controls="nav-upload" aria-selected="false">
+                                        File Upload
+                                    </button>
+                                    <button class="nav-link" id="nav-dashboard-tab" data-bs-toggle="tab" data-bs-target="#nav-dashboard" type="button" role="tab" 
+                                    aria-controls="nav-dashboard" aria-selected="false">
+                                        Dashboard
+                                    </button>
+                                    <button class="nav-link" id="nav-image-tab" data-bs-toggle="tab" data-bs-target="#nav-image" type="button" role="tab" 
+                                    aria-controls="nav-image" aria-selected="false">
+                                        Image Viewer
+                                    </button>
+                                </div>
+                            </nav>
+                            <hr class="text-muted m-2">
+                            <div class="tab-content m-3" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <img src="komisi_home.png" alt="Komisi Homepage" class="img-fluid">
+                                    <hr class="mb-1">
+                                    <div class="text-muted text-center mt-1">
+                                        <strong>Screenshot:</strong> Homepage
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-terms" role="tabpanel" aria-labelledby="nav-terms-tab">
+                                    <img src="komisi_terms.png" alt="Komisi Terms" class="img-fluid">
+                                    <hr class="mb-1">
+                                    <div class="text-muted text-center mt-1">
+                                        <strong>Screenshot:</strong> Commission Info
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-login" role="tabpanel" aria-labelledby="nav-login-tab">
+                                    <img src="komisi_login.png" alt="Komisi Homepage" class="img-fluid">
+                                    <hr class="mb-1">
+                                    <div class="text-muted text-center mt-1">
+                                        <strong>Screenshot:</strong> Login Page
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-reg" role="tabpanel" aria-labelledby="nav-reg-tab">
+                                    <img src="komisi_reg.png" alt="Komisi Homepage" class="img-fluid">
+                                    <hr class="mb-1">
+                                    <div class="text-muted text-center mt-1">
+                                        <strong>Screenshot:</strong> Register Page
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-upload" role="tabpanel" aria-labelledby="nav-upload-tab">
+                                    <img src="komisi_upload.png" alt="Komisi Homepage" class="img-fluid">
+                                    <hr class="mb-1">
+                                    <div class="text-muted text-center mt-1">
+                                        <strong>Screenshot:</strong> File Upload Component
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-dashboard" role="tabpanel" aria-labelledby="nav-dashboard-tab">
+                                    <img src="komisi_dashboard.png" alt="Komisi Homepage" class="img-fluid">
+                                    <hr class="mb-1">
+                                    <div class="text-muted text-center mt-1">
+                                        <strong>Screenshot:</strong> User Dashboard
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-image" role="tabpanel" aria-labelledby="nav-image-tab">
+                                    <img src="komisi_image.png" alt="Komisi Homepage" class="img-fluid">
+                                    <hr class="mb-1">
+                                    <div class="text-muted text-center mt-1">
+                                        <strong>Screenshot:</strong> Image Viewer
+                                    </div>
+                                </div>
+                            </div>
+                            <p style="text-align: center;">
+                                <a href="https://komisi.art" target="_blank"><button class="button" style="vertical-align:middle"><span>Visit web!</span></button></a>
+                            </p>
+                            <p>
+                                <strong>KomisiART</strong> is a web based platform built for artists, illustrators, designers, and animators. These creative industry figures
+                                will be able to use the platform to market and publish their creative artworks to gain exposures and jobs.
+                            </p>
+                            <p>
+                                <strong>KomisiART</strong> is currently under development using several technologies such as <strong>ReactJS</strong> and <strong>Go</strong>, and <strong>Firebase</strong>. 
+                            </p>
+                        </p>
+                        
+                    </p>
+                </div>
             </div>
         </div>
+        
 
         <script>
             window.onscroll = function() {floatingMenu()};

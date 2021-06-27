@@ -167,3 +167,15 @@ iframe, img {
     right: 0;
   }
 
+.nav-pills .nav-link:not(.active) {
+      
+}
+
+.nav-pills .nav-link {
+    color: tomato;
+    font-weight: 300;
+    background-color: tomato;
+}
+.nav-pills .active {
+    background-color: tomato!important;
+}

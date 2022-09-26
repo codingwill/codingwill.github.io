@@ -20,7 +20,11 @@ p {
 
 table, th, td {
     padding: 3px 0px 3px 10px;
-  }
+}
+
+table td, table td * {
+    vertical-align: top;
+}
 
 iframe, img {
     display: block;
